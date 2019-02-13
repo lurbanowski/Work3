@@ -1,5 +1,5 @@
 # Work3
-1. Aplikacja realizuje tylko odczyt danych z pliku XML i CSV i zapisuje do bazy MySQL wedłóg podanego wcześniej schematu.
+1. Aplikacja realizuje tylko odczyt danych z pliku XML i CSV i zapisuje do bazy MySQL według podanego wcześniej schematu.
 2. Pliki zewnętrzne są ustawione na sztywno, poprzez wskazanie bezpośredniego adresu.
 3. Stworzyłem dwie klasy Person i Contacts, odzielne klasy dla odczytu XML i CSV oraz dwie kalasy PersonDao, ContactsDao.
 4. Program uruchamia klasa Main. 
@@ -17,4 +17,4 @@ ID_CUSTOMER
 TYPE (integer - 0 - unknown, 1 - email, 2 - phone, 3- jabber)
 CONTACT
 
-7. Informacja o mieście podawana w plikach świadomie nie zoastała użyta do zapisu w bazie, gdyż trzymałem się podanego schematu.
+7. Informacja o mieście podawana w plikach, świadomie nie zoastała użyta do zapisu w bazie, gdyż trzymałem się podanego schematu.
