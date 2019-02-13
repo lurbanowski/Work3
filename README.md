@@ -4,7 +4,7 @@
 3. Stworzyłem dwie klasy Person i Contacts, odzielne klasy dla odczytu XML i CSV oraz dwie kalasy PersonDao, ContactsDao.
 4. Program uruchamia klasa Main. 
 5. Przechowywane kontakty rozpoznaję w przypadku XML po nazwie tagu xml, 
-a w formacie CSV poprzez regex i jeden typ po długość wartości(jabber). 
+a w formacie CSV poprzez regex i jeden typ po długość wartości (jabber). 
 6. Baza danych realizuje poniższy schemat
 Tabela CUSTOMERS:
 ID
