@@ -11,7 +11,6 @@ public class ReaderCSV {
 
     public static List<Person> csvReader() {
         String csvFile = "/home/lukasz/Dokumenty/CodersLabs/Work3/file/dane-osoby.txt";
-
         List<Person> persons = new ArrayList<>();
 
         /**metoda czyta dane w formacie CSV, buduje z nich dwie listy.
@@ -24,38 +23,45 @@ public class ReaderCSV {
             reader = new CSVReader(new FileReader(csvFile));
             String[] line;
             while ((line = reader.readNext()) != null) {
-                Person person = new Person();
                 List<Contacts> contacts = new ArrayList<>();
                 String emailPattern = "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$";
                 String phoneNumberPattern = "^(?:\\(?\\+?48)?(?:[-\\.\\(\\)\\s]*(\\d)){9}\\)?$";
-
-                person.setName(line[0]);
-                person.setSurname(line[1]);
-                person.setAge(line[2]);
-                person.setCity(line[3]);
-                     for (int j = 4; j < line.length; j++) {
-                        Contacts contact = new Contacts();
-                        if (line[j].matches(emailPattern) && line[j] != null) {
-                            contact.setType(1);
-                            contact.setValue(line[j]);
-                        } else if (line[j].matches(phoneNumberPattern) && line[j] != null) {
-                            contact.setType(2);
-                            contact.setValue(line[j]);
-                        } else if (line[j].length() == 3 && line[j] != null) {
-                            contact.setType(3);
-                            contact.setValue(line[j]);
-                        } else if(line[j].equals(" ") || line[j].equals("") || line[j].isEmpty() ) {
-                            contact.setType(0);
-                            contact.setValue(null);
-                        }
-                        contacts.add(contact);
-                    }
-                person.setListContacts(contacts);
-                persons.add(person);
+                createContact(line, contacts, emailPattern, phoneNumberPattern);
+                createPerson(persons, line, contacts);
             }
         }catch(IOException e){
                     e.printStackTrace();
                 }
                 return persons;
+    }
+
+    private static void createPerson(List<Person> persons, String[] line, List<Contacts> contacts) {
+        Person person = new Person();
+        person.setName(line[0]);
+        person.setSurname(line[1]);
+        person.setAge(line[2]);
+        person.setCity(line[3]);
+        person.setListContacts(contacts);
+        persons.add(person);
+    }
+
+    private static void createContact(String[] line, List<Contacts> contacts, String emailPattern, String phoneNumberPattern) {
+        for (int j = 4; j < line.length; j++) {
+           Contacts contact = new Contacts();
+           if (line[j].matches(emailPattern) && line[j] != null) {
+               contact.setType(1);
+               contact.setValue(line[j]);
+           } else if (line[j].matches(phoneNumberPattern) && line[j] != null) {
+               contact.setType(2);
+               contact.setValue(line[j]);
+           } else if (line[j].length() == 3 && line[j] != null) {
+               contact.setType(3);
+               contact.setValue(line[j]);
+           } else if(line[j].equals(" ") || line[j].equals("") || line[j].isEmpty() ) {
+               contact.setType(0);
+               contact.setValue(null);
+           }
+           contacts.add(contact);
+       }
     }
 }

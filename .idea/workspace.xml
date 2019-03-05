@@ -6,7 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a9888a5-4303-4c18-9f9a-8588cbc391e4" name="Default Changelist" comment="" />
+    <list default="true" id="9a9888a5-4303-4c18-9f9a-8588cbc391e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/demo/dao/PersonDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/dao/ContactsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/demo/dao/ContactsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/dao/CustomersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/model/Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/demo/model/Contacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/model/Customers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/demo/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/servis/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/servis/ReaderCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/demo/servis/ReaderCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/servis/ReaderXMLBis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/demo/utils/DbUtil.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,10 +80,15 @@
     <session id="423871277">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.210" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.50" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,50 +96,64 @@
           <entry key="CONTACTS" value="9" />
           <entry key="CUSTOMERS" value="18" />
           <entry key="class" value="1" />
-          <entry key="java" value="47" />
+          <entry key="java" value="60" />
           <entry key="sql" value="1" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="11" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Database Element" value="27" />
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="60" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="9043" />
+          <entry key="java" value="9090" />
           <entry key="sql" value="26" />
           <entry key="txt" value="5" />
-          <entry key="xml" value="11" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9043" />
+          <entry key="JAVA" value="9090" />
           <entry key="PLAIN_TEXT" value="33" />
           <entry key="SQL" value="26" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/file/dane-osoby.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/servis/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderBis.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXMLBis.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/dao/ContactsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/dao/CustomersDao.java" />
@@ -137,9 +172,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/model/Contacts.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/model/Customers.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/model/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/demo/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXML.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderCSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXML.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/demo/dao/PersonDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/demo/Main.java" />
       </list>
     </option>
   </component>
@@ -174,12 +211,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="81" />
     <option name="y" value="67" />
     <option name="width" value="1259" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -229,6 +267,36 @@
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Work3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Work3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Work3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="servis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,22 +307,31 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549302728847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551735466298" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.demo.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/pl/demo/servis" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/pl/demo" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/file" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/pl/demo/servis" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PersonDaoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.demo.Main" />
       <module name="Work3" />
@@ -279,6 +356,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Work3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.demo.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="pl.demo.dao.PersonDaoTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,9 +449,11 @@
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.PersonDaoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonDaoTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -378,17 +471,27 @@
       <workItem from="1549017046610" duration="4516000" />
       <workItem from="1549099517840" duration="3206000" />
       <workItem from="1549118469532" duration="22163000" />
-      <workItem from="1549260919790" duration="34577000" />
+      <workItem from="1549260919790" duration="35175000" />
+      <workItem from="1549316068643" duration="543000" />
+      <workItem from="1549457977222" duration="523000" />
+      <workItem from="1549622498977" duration="1059000" />
+      <workItem from="1551730799076" duration="4444000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PersonDaoTest - 2019.03.04 at 22h 28m 21s.xml">
+      <configuration name="PersonDaoTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64462000" />
+    <option name="totallyTimeSpent" value="71629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25937748" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27773345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -396,11 +499,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3284553" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3284553" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32789558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +511,9 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3284553" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32789558" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3284553" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3284553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -447,30 +550,9 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1252949-0a50-414f-bb3c-88ef1a0aea17/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/dane-osoby.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/utils/DbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/dane-osoby.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/utils/DbUtil.java" />
+    <entry file="file://$PROJECT_DIR$/META-INF/context.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/opencsv/opencsv/3.8/opencsv-3.8.jar!/com/opencsv/CSVReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -506,26 +588,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/dao/ContactsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/model/Customers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/model/Customers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/model/Contacts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -533,86 +596,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/servis/Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/servis/Reader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/dao/PersonDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/dao/ContactsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/demo/dao/PersonDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="540">
           <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderXML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="79" column="64" lean-forward="true" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/servis/ReaderCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>

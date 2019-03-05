@@ -10,7 +10,7 @@ public class Main {
 
         PersonDao m = new PersonDao();
         m.savePerson(ReaderCSV.csvReader());
-        m.savePerson(ReaderXML.readerBis());
+        m.savePerson(ReaderXML.xmlReader());
 
     }
 }
